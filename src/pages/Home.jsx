@@ -39,7 +39,7 @@ const Home = () => {
 
  
   const ai = new GoogleGenAI({
-    apiKey: "AIzaSyAWdnAzcKgNa3WQeeELBBYfw9WeGf_dlm8"
+    apiKey: "add your google gen ai api key here"
   });
   
 
@@ -239,3 +239,6 @@ Generate a complete ${frameWork.label} code for the following component descript
 }
 
 export default Home
+
+
+gi
