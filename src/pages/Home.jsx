@@ -37,11 +37,7 @@ const Home = () => {
     return match ? match[1].trim() : response.trim();
   }
 
- 
-  const ai = new GoogleGenAI({
-    apiKey: "add your google gen ai api key here"
-  });
-  
+
 
   //  Generate code
   async function getResponse() {
